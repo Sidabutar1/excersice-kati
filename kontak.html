@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Kontak Pendaftar </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<fieldset>
+    <h1><b>Project Programing</b></h1>
+    <h2><b>Bersama Pejuang Tugas akhir</b></h2>
+</fieldset><br>
+<header>
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="beranda.html">Services</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+
+        </ul>
+    </nav>
+</header><br>
+<!-- sekarang belajar membuat form-->
+<form>
+    <fieldset>
+        <legend> form pendataan Member Baru </legend>
+        <label for="nama_pengguna">Nama</label>
+        <input type="text" placeholder="Nama Lengkap" id="nama_pengguna">
+        <br>
+        <label for="text_anda">Alamat</label>
+        <textarea cols="100" rows="7" id="text_anda"></textarea>
+
+        <br><label>Hobi pengguna</label><br>
+        <input type="checkbox" name="hobi_pengguna" value="0">Coding Database <br>
+        <input type="checkbox" name="hobi_pengguna" value="0">Web design <br>
+        <input type="checkbox" name="hobi_pengguna" value="0">Back end <br>
+        <br><label>jenis kelamin</label><br>
+        <input type="radio" name="gender" value="0">laki-laki
+        <input type="radio" name="gender" value="1">perempuan
+
+        <br><label>Layanan</label>
+        <select>
+            <optgroup label="frontend">
+                <option value="0">HTML</option>
+                <option value="1">CSS</option>
+            </optgroup>
+            <optgroup label="backend">
+                <option value="2">php</option>
+                <option value="3">database</option>
+            </optgroup>
+        </select>
+        <br>
+        <input type="submit" value="kumpulkan">
+    </fieldset>
+</form>
+
+<br><br>
+
+
+<body>
+    <!-- Berikut cara memanggil atau menghubungkan program dari pogram yang satu ke yang lain-->
+
+
+
+    <!-- Berikut adalah heading tag, isinya bagian awalan -->
+    <div>
+        <h1> Kontak Member Baru</h1>
+        <h2> BEGITULAH </h2>
+    </div>
+
+    <!--Berikut cara pembuatan table dalam html-->
+    <table border="1">
+        <caption>berikut data Member terdata</caption>
+        <tr>
+            <th>Nama</th>
+            <th>Nim</th>
+        </tr>
+        <tr>
+            <td>sevin</td>
+            <td>192312</td>
+        </tr>
+        <tr>
+            <td>pino</td>
+            <td>192332</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Sevin</li>
+        <li>Pino</li>
+    </ul>
+    <ol>
+        <li>Sevin</li>
+        <li>Pino</li>
+    </ol>
+    <dl>
+        <dt>Sevin</dt>
+        <dd>berikut adalah orang pertama memasukan data</dd>
+        <dt>Pino</dt>
+        <dd>berikut adalah orang kedua memasukan data</dd>
+    </dl>
+    <footer>
+        <p>&copy; 2023 DapotHYS. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #0077B5;
+  color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  ,
+}
+
+h2 {
+  text-align: center;
+  color: black
+}
+
+p {
+  color: black
+}
+
+h3 {
+  color: #333;
+}
+
+.highlight {
+  color: #0077B5;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077B5;
+  color: #f1f1f1;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #005e8e;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.job,
+.education {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #0077B5;
+  color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005e8e;
+}
+
+footer {
+  background-color: #333;
+  color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Tambahkan style untuk kartu foto */
+.photo-card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#about {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+#experience,
+#education {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  background-image: url("sevin.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
